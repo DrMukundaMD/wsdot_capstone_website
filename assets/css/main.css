@@ -1919,16 +1919,7 @@
 
 /* Feature Icon */
 
-	.feature-icon {
-		display: inline-block;
-		position: relative;
-		padding-bottom: 5em;
-		margin-bottom: 2.75em;
-		cursor: default;
-	}
-
-		.feature-icon .icon {
-			display: inline-block;
+.profile{
 			width: 2em;
 			height: 2em;
 			font-size: 4.5em;
@@ -2072,10 +2063,11 @@ i{
 	}
 
 		.main > header {
-			background: #fff;
+			background: #ffffff;
 			text-align: center;
 			padding: 5em 0 5em 0;
 			margin: 0;
+			/*background-image: url("../../images/silvio-kundt-65518-unsplash.jpg");*/
 		}
 
 			.main > header h2 {

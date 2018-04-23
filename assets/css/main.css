@@ -1929,29 +1929,29 @@
 			line-height: 2.1em;
 		}
 
-		.feature-icon:before {
-			content: '';
-			background: #666;
-			position: absolute;
-			bottom: 0;
-			left: 50%;
-			margin-left: -0.325em;
-			width: 0.65em;
-			height: 0.65em;
-			display: block;
-			border-radius: 100%;
-		}
+		/*.feature-icon:before {*/
+			/*content: '';*/
+			/*background: #666;*/
+			/*position: absolute;*/
+			/*bottom: 0;*/
+			/*left: 50%;*/
+			/*margin-left: -0.325em;*/
+			/*width: 0.65em;*/
+			/*height: 0.65em;*/
+			/*display: block;*/
+			/*border-radius: 100%;*/
+		/*}*/
 
-		.feature-icon:after {
-			content: '';
-			position: absolute;
-			left: 50%;
-			bottom: 0.65em;
-			width: 1px;
-			height: 4.35em;
-			background: #666;
-			margin-left: -0.5px;
-		}
+		/*.feature-icon:after {*/
+			/*content: '';*/
+			/*position: absolute;*/
+			/*left: 50%;*/
+			/*bottom: 0.65em;*/
+			/*width: 1px;*/
+			/*height: 4.35em;*/
+			/*background: #666;*/
+			/*margin-left: -0.5px;*/
+		/*}*/
 
 	.dark .feature-icon .icon {
 		background: rgba(255, 255, 255, 0.15);

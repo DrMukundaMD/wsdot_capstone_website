@@ -2107,7 +2107,7 @@ i{
 			}
 
 			.main > .content.style2 {
-				background-image: url("images/overlay.png"), url("../../images/wood3.jpg");
+				background-image: url("images/overlay.png"), url("../../images/wood5.jpg");
 				background-size: auto, cover;
 				background-position: top left, center center;
 				background-repeat: repeat, no-repeat;
@@ -2134,7 +2134,7 @@ i{
 			}
 
 			.main > .content.style5 {
-				background-image: url("images/overlay.png"), url("../../images/wood3.jpg");
+				background-image: url("images/overlay.png"), url("../../images/wood4.jpg");
 				background-size: auto, cover;
 				background-position: top left, center center;
 				background-repeat: repeat, no-repeat;

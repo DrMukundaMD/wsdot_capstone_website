@@ -1999,7 +1999,7 @@ i{
 		/*background-position: top left, center center;*/
 		background-repeat: repeat, no-repeat;
 		
-		padding: 18em 0 14em 0;
+		padding: 20em 0 14em 0;
 		text-align: center;
 		color: #fff;
 
@@ -2096,21 +2096,32 @@ i{
 			}
 
 			.main > .content.style1 {
-				background-image:  url("../../images/pic05.jpg");
-				background-size: auto, cover;
-				background-position: top left, center center;
-				background-repeat: repeat, no-repeat;
+				/*background-image:  url("../../images/pic05.jpg");*/
+				/*background-size: auto, cover;*/
+				/*background-position: top left, center center;*/
+				/*background-repeat: repeat, no-repeat;*/
 				/*background: url("images/bgtr.svg") top right no-repeat,
 				url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg")
 				bottom left no-repeat, url("images/overlay.png"), url("images/overlay.png"),
 				linear-gradient(45deg, #b39c68, #284c2c, #284c2c);*/
+				background: #232526;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 			}
 
 			.main > .content.style2 {
-				background-image: url("images/overlay.png"), url("../../images/pic05.jpg");
-				background-size: auto, cover;
-				background-position: top left, center center;
-				background-repeat: repeat, no-repeat;
+				/*background-image: url("images/overlay.png"), url("../../images/pic05.jpg");*/
+				/*background-size: auto, cover;*/
+				/*background-position: top left, center center;*/
+				/*background-repeat: repeat, no-repeat;*/
+				background: #232526;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 				/*
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat,
 				url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #284c2c);
@@ -2118,10 +2129,15 @@ i{
 			}
 
 			.main > .content.style3 {
-				background-image: url("images/overlay.png"), url("../../images/pic05.jpg");
-				background-size: auto, cover;
-				background-position: top left, center center;
-				background-repeat: repeat, no-repeat;
+				/*background-image: url("images/overlay.png"), url("../../images/pic05.jpg");*/
+				/*background-size: auto, cover;*/
+				/*background-position: top left, center center;*/
+				/*background-repeat: repeat, no-repeat;*/
+				background: #232526;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 				/*
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat,
 				url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
@@ -2134,7 +2150,9 @@ i{
 			}
 
 /* Footer */
-
+.video{
+	margin-top: -15%;
+}
 	#footer {
 		position: relative;
 		margin: 0;

@@ -3,7 +3,35 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+$(window).scroll(function() {
+	$('video').each(function(){
+		console.log($(this).isOnScreen())
+		if ($(this).isOnScreen()) {
+			$('video')[0].play();
+		} else {
+			$('video')[0].pause();
+		}
+	})
+});
 
+$.fn.isOnScreen = function(){
+
+	var win = $(window);
+
+	var viewport = {
+		top : win.scrollTop(),
+		left : win.scrollLeft()
+	};
+	viewport.right = viewport.left + win.width();
+	viewport.bottom = viewport.top + win.height();
+
+	var bounds = this.offset();
+	bounds.right = bounds.left + this.outerWidth();
+	bounds.bottom = bounds.top + this.outerHeight();
+
+	return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
+
+};
 (function($) {
 
 	skel.breakpoints({

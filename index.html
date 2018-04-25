@@ -7,10 +7,12 @@
 <html>
     <head>
         <title>Washington State Department of Transportation Safety Visualization System</title>
+
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <!--[if lte IE 8]>
         <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/main.css"/>
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
@@ -28,82 +30,64 @@
             </h1>
         </header>
         <footer>
-            <a href="#first" class="button scrolly">What Does it Do?</a>
-            <a href="#devs" class="button scrolly">Meet The Devs</a>
+            <a href="#whatdoes" class="button scrolly">What Does it Do?</a>
+            <!--<a href="#devs" class="button scrolly">Meet The Devs</a>-->
         </footer>
     </section>
 
 
-    <!-- First -->
-    <section id="first" class="main">
+    <!-- What Does It Do -->
+    <section id="whatdoes" class="main">
         <header>
-            <div class="container">
-                <h4><b>The Visualization Systems allows for users to visualize current crash data on a specific portion of road.
-                    With that they are able to better understand the road and how different road attributes contribute to crashes.
-                    This system allows State Transportation employees to make better decisions about future construction.
-                </b>
-                </h4>
-            </div>
+            <h2>What Does It Do?</h2>
         </header>
         <div class="content dark style3">
             <div class="container">
-                <span class="image featured"><img src="assets/css/images/picture.png" alt=""/></span>
+                <div class="row video">
+                    <video width="87%" height="50%" style="margin-left: 6%" loop>
+                        <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4" />
+                    </video>
+                </div>
                 <div class="row">
-                    <div class="4u 12u(narrow)">
-                        <p> Users can choose a route to view a heat map displaying the
-                            number of accidents on that route in 2014 / 2015. Users can also select beginning and
-                            end arms to zoom in on a smaller portion of the route.
-                            A plane graph comparison of attributes is displayed upon selection.
+                    <div class="12u 12u(narrow)">
+                        <p class="text-center">The Visualization Systems allows for users to visualize current crash
+                            data on a specific portion of road. With that they are able to better understand the road
+                            and how different road attributes contribute to crashes. This system allows State
+                            Transportation employees to make better decisions about future construction.
+
                         </p>
                     </div>
-                    <div class="4u 12u(narrow)">
-                        <a href="#second" class="button scrolly">What Else?</a>
+                    <div style="margin-left: 40%">
+                        <a href="#whatelse" class="text-center button scrolly">What Else?</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--<section id="footer2" class="main">-->
+        <!--<header>-->
+            <!---->
+        <!--</header>-->
+    <!--</section>-->
 
-		<!-- First -->
-		<section id="first" class="main">
-			<header>
-				<div class="container" style="height: 2%; margin-top: -5%">
-					<h4><b>The Visualization Systems allows for users to visualize current crash data on a specific portion of road.
-						With that they are able to better understand the road and how different road attributes contribute to crashes.
-						This system allows State Transportation employess to make better decisions about future construction.
-						</b>
-					</h4>
-				</div>
-			</header>
-
-
-			<div class="content dark style3">
-
-				<div class="row video">
-					<video width="87%" height="10%" style="margin-left: 6%" loop>
-						<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4" />
-
-					</video>
-					</div>
-					<div class="row">
-						<div class="4u 12u(narrow)">
-							<p> Users can choose a route to view a heat map displaying the
-								number of accidents on that route in 2014 / 2015. Users can also select beginning and
-								end arms to zoom in on a smaller portion of the route.
-								A graph of ???????????? is displayed upon selection.
-							</p>
-						</div>
-
-
+    <!-- What Else? -->
+    <section id="whatelse" class="main">
+        <header>
+                <h2>What Else?</h2>
+        </header>
         <div class="content dark style2">
             <div class="container">
                 <div class="row">
                     <div class="4u 12u(narrow)">
                         <section>
-                            <p>Users can select routes, and start and end arms. </p>
+                            <p>Users can choose a route to view a heat map displaying the
+                            number of accidents on that route in 2014 / 2015. Users can also select beginning and
+                            end arms to zoom in on a smaller portion of the route.
+                            A plane graph comparison of attributes is displayed upon selection.
+                                Users can select routes, and start and end arms. </p>
                             <footer>
-                                <a href="#third" class="button scrolly">System Documentation</a>
+                                <a href="#sysdoc" class="button scrolly">System Documentation</a>
                             </footer>
                         </section>
                     </div>
@@ -124,12 +108,11 @@
     </section>
 
 
-    <!-- third-->
-    <section id="third" class="main">
+    <!-- System Documentation-->
+    <section id="sysdoc" class="main">
         <header>
             <h2>System Documentation</h2>
         </header>
-
         <div class="content dark style2">
             <div class="container">
                 <div class="row">
@@ -139,7 +122,7 @@
                                     href="https://drive.google.com/drive/folders/1X0mMXDiApMuGIIWmhAUda64LeZ5ZYTly?usp=sharing"
                                     target="_blank">Google Drive.</a></p>
                             <footer>
-                                <a href="#fourth" class="button scrolly">Try me</a>
+                                <a href="#devs" class="button scrolly">Meet The Devs</a>
                             </footer>
                         </section>
                     </div>
@@ -166,49 +149,62 @@
             </div>
         </header>
 
-
         <div class="content dark style3 featured">
             <div class="container">
                 <div class="row">
                     <div class="4u 12u(narrow)">
                         <section>
-                            <span class="feature-icon"><img src="images/alex2.jpg"
-                                                            style=" height: 200px; width: 200px; border-radius: 50%"></span>
+                            <span class="feature-icon">
+                                <img src="images/alex2.jpg"
+                                                            style=" height: 200px; width: 200px; border-radius: 50%">
+                            </span>
                             <header>
                                 <h3>Alex Bouril</h3>
                             </header>
                             <p>Alex attends Penn State and is currently working on his B.S. and M.S. in Computer Science.
 								He enjoys learning about AI technologies and algorithms.</p>
-                            <a href="https://github.com/alexbouril" target="_blank"> <i class="fa fa-github"></i></a>
                         </section>
                     </div>
                     <div class="4u 12u(narrow)">
                         <section>
-                            <span class="feature-icon"><img src="images/anon.jpeg"
-                                                            style=" height: 200px; width: 200px; border-radius: 50%"></span>
+                            <span class="feature-icon">
+                                <img src="images/sai.jpg"
+                                                            style=" height: 200px; width: 200px; border-radius: 50%">
+                            </span>
                             <header>
                                 <h3>Sai Gujjula</h3>
                             </header>
-                            <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-                                Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-                                ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-                                accumsan vivamus.</p>
-                            <a href="https://github.com/srg5392" target="_blank"> <i class="fa fa-github"></i></a>
+                            <p>Sai is currently a undergraduate student at Penn State Harrisburg. He will be completing
+                                his Bachelors in Computer Science with Honors over Summer 2018. He has done an
+                                internship with Dell Boomi as a Platform Consultant.</p>
                         </section>
                     </div>
                     <div class="4u 12u(narrow)">
                         <section>
-                            <span class="feature-icon"><img src="images/anon.jpeg" class="profile"
+                            <span class="feature-icon"><img src="images/joe.jpeg" class="profile"
                                                             style=" height: 200px; width: 200px; border-radius: 50%"></span></span>
                             <header>
                                 <h3>Joe Heisey</h3>
                             </header>
-                            <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-                                Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-                                ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-                                accumsan vivamus.</p>
-                            <a href="https://github.com/Raukus" target="_blank"> <i class="fa fa-github"></i></a>
+                            <p>Joe is a Computer Science major at Penn State Harrisburg interested in the design and
+                                application of databases. He has 4 years of experience in IT support. Joe is currently
+                                employed in a quality assurance role for a medical devices manufacturer. </p>
                         </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(narrow)">
+                        <a href="https://github.com/alexbouril" target="_blank"> <i class="fa fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/alex-bouril-787023134/" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="4u 12u(narrow)">
+                        <a href="https://github.com/srg5392" target="_blank"> <i class="fa fa-github"></i></a>
+                    </div>
+                    <div class="4u 12u(narrow)">
+                        <a href="https://github.com/Raukus" target="_blank"> <i class="fa fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/josephheisey" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="content dark style1 featured">
@@ -216,46 +212,68 @@
                         <div class="row">
                             <div class="4u 12u(narrow)">
                                 <section>
-                                    <span class="feature-icon"><img src="images/mukunda.jpg" class="profile"
-                                                                    style=" height: 200px; width: 200px; border-radius: 50%"></span>
+                                    <span class="feature-icon">
+                                        <img src="images/mukunda.jpg" class="profile"
+                                                                    style=" height: 200px; width: 200px; border-radius: 50%">
+                                    </span>
                                     <header>
                                         <h3>Mukunda Mensah</h3>
                                     </header>
                                     <p>Mukunda attends Penn State and is currently working on his B.S. and M.S. in
                                         Computer Science. His focuses are distributed systems, security, database
                                         and network administration.</p>
-                                    <a href="https://github.com/DrZeroMD" target="_blank"> <i class="fa fa-github"></i></a>
+
                                 </section>
                             </div>
                             <div class="4u 12u(narrow)">
                                 <section>
-                                    <span class="feature-icon"><img src="images/Schellenberg.png" class="profile"
-                                                                    style=" height: 200px; width: 200px; border-radius: 50%"></span>
+                                    <span class="feature-icon">
+                                        <img src="images/Schellenberg.png" class="profile"
+                                                                    style=" height: 200px; width: 200px; border-radius: 50%">
+                                    </span>
                                     <header>
                                         <h3>Sierra Schellenberg</h3>
                                     </header>
                                     <p>Sierra graduated from Penn State with a B.S. in Computer Science in Spring
                                         2018. She now works as a software engineer at The Vanguard Group.
                                     </p>
-                                    <a href="https://github.com/SierraS" target="_blank"> <i class="fa fa-github"></i></a>
+
                                 </section>
                             </div>
                             <div class="4u 12u(narrow)">
                                 <section>
-                                    <span class="feature-icon"><img src="images/profileImage.png" class="profile"
-                                                                    style=" height: 200px; width: 200px; border-radius: 50%"></span>
+                                    <span class="feature-icon">
+                                        <img src="images/profileImage.png" class="profile"
+                                                                    style=" height: 200px; width: 200px; border-radius: 50%">
+                                    </span>
                                     <header>
                                         <h3>Colin Walsh</h3>
                                     </header>
                                     <p>Colin graduated from Penn State with a B.S. in Computer Science and a minor in Math.
                                         He is a full
                                         stack developer specializing in Web Development. </p>
-                                    <a href="https://github.com/cwalsh003" target="_blank"> <i class="fa fa-github"></i></a>
+
+                                </section>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u 12u(narrow)">
+                                <a href="https://github.com/DrZeroMD" target="_blank"> <i class="fa fa-github"></i></a>
+                            </div>
+                            <div class="4u 12u(narrow)">
+                                <a href="https://github.com/SierraS" target="_blank"> <i class="fa fa-github"></i></a>
+                            </div>
+                            <div class="4u 12u(narrow)">
+                                <a href="https://github.com/cwalsh003" target="_blank"> <i class="fa fa-github"></i></a>
                                     <a href="https://www.linkedin.com/in/colin003/" target="_blank"><i
                                             class="fa fa-linkedin"></i></a>
                                     <a href="http://colinwalshdevelopment.com" target="_blank"><i
                                             class="fa fa-user"></i></a>
-                                </section>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="margin-left: 40%">
+                                <a href="#fourth" class="button scrolly">Try me</a>
                             </div>
                         </div>
                     </div>

@@ -1990,6 +1990,11 @@ i{
 	font-size: 3.73em !important;
 	padding: 5px;
 }
+video{
+	-webkit-box-shadow: 7px 7px 6px 1px rgba(0,0,0,1);
+	-moz-box-shadow: 7px 7px 6px 1px rgba(0,0,0,1);
+	box-shadow: 7px 7px 6px 1px rgba(0,0,0,1);
+}
 	#header {
 		position: relative;
 		margin: 0;

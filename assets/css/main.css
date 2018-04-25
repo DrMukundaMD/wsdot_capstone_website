@@ -2117,6 +2117,7 @@ video{
 			}
 
 			.main > .content.style2 {
+<<<<<<< HEAD
 				/*background-image: url("images/overlay.png"), url("../../images/pic05.jpg");*/
 				/*background-size: auto, cover;*/
 				/*background-position: top left, center center;*/
@@ -2127,6 +2128,12 @@ video{
 				/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
+=======
+				background-image: url("images/overlay.png"), url("../../images/wood5.jpg");
+				background-size: auto, cover;
+				background-position: top left, center center;
+				background-repeat: repeat, no-repeat;
+>>>>>>> 53532fe18d18e7cd4bc70dfa0fe2b3e4f2e20180
 				/*
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat,
 				url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #284c2c);
@@ -2134,6 +2141,7 @@ video{
 			}
 
 			.main > .content.style3 {
+<<<<<<< HEAD
 				/*background-image: url("images/overlay.png"), url("../../images/pic05.jpg");*/
 				/*background-size: auto, cover;*/
 				/*background-position: top left, center center;*/
@@ -2143,6 +2151,12 @@ video{
 				background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 				/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+=======
+				background-image: url("images/overlay.png"), url("../../images/wood3.jpg");
+				background-size: auto, cover;
+				background-position: top left, center center;
+				background-repeat: repeat, no-repeat;
+>>>>>>> 53532fe18d18e7cd4bc70dfa0fe2b3e4f2e20180
 				/*
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat,
 				url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
@@ -2152,6 +2166,17 @@ video{
 			.main > .content.style4 {
 				padding-top: 0;
 				background: #fff;
+			}
+
+			.main > .content.style5 {
+				background-image: url("images/overlay.png"), url("../../images/wood4.jpg");
+				background-size: auto, cover;
+				background-position: top left, center center;
+				background-repeat: repeat, no-repeat;
+				/*
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat,
+				url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				*/
 			}
 
 /* Footer */

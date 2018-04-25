@@ -4,12 +4,22 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 $(window).scroll(function() {
-	$('video').each(function(){
+	$('#video0').each(function(){
 		console.log($(this).isOnScreen())
 		if ($(this).isOnScreen()) {
-			$('video')[0].play();
+			$('#video0')[0].play();
 		} else {
-			$('video')[0].pause();
+			$('#video0')[0].pause();
+		}
+	})
+});
+$(window).scroll(function() {
+	$('#video1').each(function(){
+		console.log($(this).isOnScreen())
+		if ($(this).isOnScreen()) {
+			$('#video1')[0].play();
+		} else {
+			$('#video1')[0].pause();
 		}
 	})
 });

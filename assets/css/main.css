@@ -1968,7 +1968,9 @@
 	.icon {
 		text-decoration: none;
 	}
-
+p{
+	font: 'Roboto', sans-serif;
+}
 		.icon:before {
 			display: inline-block;
 			font-family: FontAwesome;
